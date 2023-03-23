@@ -2,6 +2,9 @@
 ### Introduction
 This is a React app to manage user notes.
 
+### Deploy
+https://freenokke-notes-app.netlify.app/
+
 ### Getting started
 - Clone the repository: git clone https://github.com/freenokke/notes-app.git
 - Install the required dependencies: npm install
