@@ -1,0 +1,35 @@
+.search-input {
+  position: relative;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  &__icons {
+    position: absolute;
+    top: 10px;
+    bottom: 0;
+    left: 5px;
+    .icons-block {
+      display: flex;
+      align-items: center;
+      &__container {
+        .icons-container {
+          color: rgb(107 114 128);
+          padding-left: 8px;
+          &__icon {
+            width: 20px;
+            height: 20px;
+            &_close {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+  &__input {
+    padding-left: 32px;
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+  }
+}

@@ -1,0 +1,55 @@
+.note {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  height: 150px;
+  box-shadow: 0 0 5px 0 rgb(0 0 0 / 25%);
+  padding: 10px 20px;
+  transition: all 0.3s;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  overflow-y: hidden;
+  &__header {
+    height: 30px;
+  }
+  &__content {
+    padding: 10px 0;
+    margin: 0;
+    cursor: pointer;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  &__tags {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px
+  }
+  .header-note {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__title {
+      height: 100%;
+      margin: 0;
+      cursor: pointer;
+      flex-basis: 80%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    &__icons {
+      height: 100%;
+      flex-basis: 20%;
+      z-index: 10;
+      display: flex;
+      gap: 10px;
+      & {
+        svg {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

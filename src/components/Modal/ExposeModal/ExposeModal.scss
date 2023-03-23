@@ -1,0 +1,13 @@
+.expose-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 15px;
+  &__content, &__title {
+    white-space: normal;
+    word-break: break-word;
+  }
+  &__title {
+    text-align: center;
+  }
+}
